@@ -3,3 +3,9 @@
     Emmit is a free add-on for your text editor , it allows to type shortcuts
     then expanded into full piece of code,
     by using emmit developer type less they can save the time and keystroke at a time
+
+2 - What is the difference between Library and Framework 
+    Library - Library is predefined functions and predefined programs are written to use the create specific task
+    Framework - Framework is a bundle of programs or it consisting of all variety of code for developers like syntax,
+    and functions to resuse the logic
+
