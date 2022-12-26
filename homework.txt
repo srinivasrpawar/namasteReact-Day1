@@ -1,0 +1,5 @@
+1 - what is Emmit?
+    Emmit is a plugin for many popular text editor which greatly imrpoves HTML and CSS Workflow,
+    Emmit is a free add-on for your text editor , it allows to type shortcuts
+    then expanded into full piece of code,
+    by using emmit developer type less they can save the time and keystroke at a time
