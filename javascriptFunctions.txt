@@ -1,0 +1,7 @@
+1   What is First Class Function ?
+    In Javascript, functions are first class functions objects.
+    First class functions means when functions in that language are trated like any other variable
+    for Example: a function can be passed as an argument to other function and can be assigned as a value to a variable
+
+2   What is Higher Order Function ?
+    A function that returns another function as an argument or returns a function as a return value or both is called Higher order function
