@@ -42,3 +42,34 @@
         }
     }
     console.log(calculateVolume(2)(4)(2));// 16
+
+5   What is Pure Function ?
+    -A pure function is a function whre the return value is only determined by its arguments without any side effects
+    -If you call a function with same argument its will always return the same result.
+
+    const add =(x,y)=>x+y;
+    add(2,4); // 6
+
+6   What is Arrow Function (=>) ?
+    -Arrow function is one of the features introduced in the es6 version of javascript.
+    -It allows you to create function in a cleaner way compared to regular functions.
+    -Arrow funcions dont have their own bidings to this,arguments,or super 
+
+    cosnt add =(x,y)=>{x+y};
+    add(2,4);//6
+
+7   What is Anonymous Function ?
+    Anonymous is a function that does not have any name associated with it.
+    Normally we use function keyword  before the function name to define a fucntion in javscript,
+    however in Anonymous funtion keyword without the name
+
+    var greet =function (){
+        console.log("pawar is super cool now to learn javascript");
+    }
+    greet();
+
+8   What is IIFE Function ?
+    -An IIFE(Immediately Invoked Function Expression)
+    -IIFE is a javascript function that runs as soon as it defined.
+    -You can use IIFEs to prevent global variables defination issues alias variable protect private data, avoid conflicts of many librabries
+    that export the same object name;
