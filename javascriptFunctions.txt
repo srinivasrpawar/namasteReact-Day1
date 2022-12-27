@@ -2,6 +2,43 @@
     In Javascript, functions are first class functions objects.
     First class functions means when functions in that language are trated like any other variable
     for Example: a function can be passed as an argument to other function and can be assigned as a value to a variable
+     
+     const run = ()=>{
+        //logic
+     }
+     run();// invoke it using a variable
 
 2   What is Higher Order Function ?
     A function that returns another function as an argument or returns a function as a return value or both is called Higher order function
+
+    const data =[1,2,4];
+            data.map(function(d)=>{
+                console.log(d);//1,2,4
+            });
+
+    here map is a Higher order function because its other function as argument
+
+
+3   What is Callback Function ?
+    A Callback function is a function that is passed as an argument into another function and then invoked 
+    inside the outer function to complete some kind of routine or action
+
+    const data =[1,2,4];
+     data .map(function(d)=>{
+        console.log(d);//1,2,4
+     });
+
+     here, inner function is a Callback function  because its passed a argument to other function
+
+4   What is Currying Function ?
+    -It is a process of taking a function with multiple arguments and turning into a sequence of functions each with only a single argument
+    -Currying is named are greet to improve code reusability and functional composition
+
+    function calculateVolume(length){
+        return function(breadth){
+            return function(height){
+                return length * breadth * height;
+            }
+        }
+    }
+    console.log(calculateVolume(2)(4)(2));// 16
