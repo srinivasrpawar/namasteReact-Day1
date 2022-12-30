@@ -46,3 +46,7 @@
     React DOM library is responsible for rendering UI in the browser
         React package contains - React.createElement, React.createClass, React.Component , React.PropTypes, React.Children
         React DOM package contains - ReactDOM.render, ReactDOM.unmountComponentAtNode, ReactDOM.findDOMNode
+
+7 - What is the difference between react.develoment.js and react.production.js files via CDN ?
+    React.developmet.js
+    
