@@ -9,3 +9,40 @@
     Framework - Framework is a bundle of programs or it consisting of all variety of code for developers like syntax,
     and functions to resuse the logic
 
+3 - What is CDN ? why do we use it ?
+    A CDN or content delivery network is a network or collection of servers in location all over the world
+    a CDN can refer to many types of content delivery services, such as load balancing and video streaming
+    - CDN's network servers allows companies to deliver content from their websites and mobile applications
+    more quickly, based on their geographical location,
+    a CDN moves data and application closer to the end user - incresing speed, enhancing security and improving the user experience
+
+    Benefits or use of CDN
+    -Reduced page load time
+    -Improved avalability
+    -Increased scalability
+    -Increased security
+
+4 - Why React is known as React ?
+    React is named because of its ability to react to changes in data.
+    when the data in react component changes, react will automatically re-render the component so that 
+    it reflects the new data . This makes it easy to create performant user interface that always up-to-date
+
+5 - What is cross origin in script tag ?
+    The crossorigin attribute on a <script> tag specifies that CORS is supported when loading an external script file
+    from third party server or domain
+
+    Example 
+    An <script> with crossorigin attribute. with this attribute, the script element supports CORS.
+    No credentails are sent when the script file is retrieved 
+
+    Using crossorigin
+    -   The crossorigin attribute specifies that the script element supports CORS 
+        CORS stands for CROSS ORIGIN RESOURCE SHARING
+        CORS is a standard mechanism to retrive files from third party domain or server
+        If specified , the script file will be sent with or withour credentails
+
+6 - What is the difference between React and React DOM ?
+    React librabry is responsible for crating views and
+    React DOM library is responsible for rendering UI in the browser
+        React package contains - React.createElement, React.createClass, React.Component , React.PropTypes, React.Children
+        React DOM package contains - ReactDOM.render, ReactDOM.unmountComponentAtNode, ReactDOM.findDOMNode
