@@ -8,7 +8,7 @@
 
 4   How can I write comments in jsx
     single line comments- if you want to comment something in jsx then you need to use javascript comment in curlybraces
-        {/* single line comment*/}
+        { // single line comment}
     multilne comments - 
         {/*
             line one 
