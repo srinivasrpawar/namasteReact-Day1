@@ -1,0 +1,29 @@
+1   Is Jsx is mandatory for React ?
+        jsx it is not mandatory for react beacuse without jsx also we can write the code using javascript.
+
+2   Is ES6 mandatory for React
+        ES6 is not mandatory for react beacuse without jsx also we can write the code using javascript
+
+3   {TitleComponent } vs {<TitleComponent>} vs {<TitleComponent></TitleComponent>} in jsx
+
+4   How can I write comments in jsx
+    single line comments- if you want to comment something in jsx then you need to use javascript comment in curlybraces
+        {/* single line comment*/}
+    multilne comments - 
+        {/*
+            line one 
+            line two
+        */}
+
+5   what is <React.Fragment></React.Fragement> and <></>
+        React Fragement is a react component and it is used to wrap or group without adding and extra node to the dom
+        No other parent for React Fragement
+       <></> We can write the empty bracket syntax instead of React.Fragement
+
+6   What is virtual dom
+        virtual dom is a actual representation of real dom
+        and it uses diff algorithm to compare the tress of node in dom and it uses the reconsilation process to compare the trees and it updates only updated trees
+7    what is reconsilation
+        the reconsilation is a process to compare one tree with another tree of nodes to determine which parts to be changed and then update the original Dom called reconsilation
+
+8
